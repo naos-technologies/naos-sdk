@@ -1,0 +1,8 @@
+# Prism Assurance — Ed25519 Public Key
+# Algorithm: Ed25519
+# Format: raw (32 bytes, base64) + SPKI/DER (base64)
+# Verifiers: use raw for PyNaCl/libsodium, SPKI for WebCrypto importKey('spki',...)
+
+alg=ed25519
+public_key_raw=A4Bdxar9O1XzdtXqHXf7La/L9GKwoWes4CJ8MhXQLpQ=
+public_key_spki=MCowBQYDK2VwAyEAA4Bdxar9O1XzdtXqHXf7La/L9GKwoWes4CJ8MhXQLpQ=
