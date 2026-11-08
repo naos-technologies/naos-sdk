@@ -1,4 +1,4 @@
-# Prism Assurance — Ed25519 Public Key
+# Naos Assurance — Ed25519 Public Key
 # Algorithm: Ed25519
 # Format: raw (32 bytes, base64) + SPKI/DER (base64)
 # Verifiers: use raw for PyNaCl/libsodium, SPKI for WebCrypto importKey('spki',...)
